@@ -198,7 +198,7 @@ export class QueryBuilderComponent implements OnInit, OnChanges, ControlValueAcc
   // ----------Validator Implementation----------
 
   validate(control: AbstractControl): ValidationErrors | null {
-    const errors: { [key: string]: any } = {};
+    const errors: any = {};
     const ruleErrorStore = [];
     let hasErrors = false;
 
@@ -258,9 +258,9 @@ export class QueryBuilderComponent implements OnInit, OnChanges, ControlValueAcc
         if (this.defaultTemplateTypes.indexOf(type) === -1) {
           console.warn(`Could not find template for field with type: ${type}`);
         }
-        return null;
       }
     }
+    return null;
   }
 
   findQueryInput(type: string): QueryInputDirective {
