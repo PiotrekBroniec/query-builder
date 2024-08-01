@@ -36,7 +36,9 @@
     "typescript": "~5.5.2"
   },
   "description": "Package forked from angular2-query-builder with updated Angular 18 support",
-  "main": "./dist/query-builder/index.d.ts",
+  "module": "dist/query-builder/esm2022/query-builder.mjs",
+  "fesm2022": "dist/query-builder/fesm2022/query-builder.mjs",
+  "typings": "dist/query-builder/index.d.ts",
   "files": [
     "dist/query-builder/**/*"
   ],
