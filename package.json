@@ -1,6 +1,6 @@
 {
-  "name": "query-bilder",
-  "version": "0.0.0",
+  "name": "@super-green/query-bilder",
+  "version": "0.7.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -35,5 +35,21 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^18.1.0",
     "typescript": "~5.5.2"
-  }
+  },
+  "description": "Package forked from angular2-query-builder with updated Angular 18 support",
+  "main": "dist\\query-builder\\index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrekBroniec/query-builder.git"
+  },
+  "keywords": [
+    "query-builder",
+    "angular"
+  ],
+  "author": "Originally created by zebzhao forked by PiotrekBroniec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PiotrekBroniec/query-builder/issues"
+  },
+  "homepage": "https://github.com/PiotrekBroniec/query-builder#readme"
 }
