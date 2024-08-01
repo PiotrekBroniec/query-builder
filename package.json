@@ -2,11 +2,8 @@
   "name": "@super-green/query-builder",
   "version": "0.7.1",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build": "ng build query-builder --configuration production",
+    "publish-to-npm": "npm publish --access public"
   },
   "dependencies": {
     "@angular/animations": "^18.1.0",

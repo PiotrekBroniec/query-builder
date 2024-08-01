@@ -10,6 +10,10 @@ Main changes done by me is copying it to the new Angular 18 project and making i
 
 Run `ng build query-builder --configuration production` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Publish to npm
+
+Run `npm publish --access public`
+
 ## Usage
 
 Basic usage didn't change, i.e. everything should work as previously.
