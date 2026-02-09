@@ -1,6 +1,6 @@
 {
   "name": "@super-green/query-builder",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "scripts": {
     "build": "ng build query-builder --configuration production",
     "publish-to-npm": "npm publish --access public"
@@ -32,10 +32,10 @@
     "ng-packagr": "^21.1.0",
     "typescript": "~5.9.3"
   },
-  "description": "Package forked from angular2-query-builder with updated Angular 18 support",
+  "description": "Package forked from angular2-query-builder with updated Angular 21 support",
   "module": "dist/query-builder/esm2022/query-builder.mjs",
   "fesm2022": "dist/query-builder/fesm2022/query-builder.mjs",
-  "typings": "dist/query-builder/index.d.ts",
+  "typings": "dist/query-builder/types/query-builder.d.ts",
   "files": [
     "dist/query-builder/**/*"
   ],
