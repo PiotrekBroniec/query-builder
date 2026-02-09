@@ -1,6 +1,6 @@
 {
   "name": "@super-green/query-builder",
-  "version": "0.7.2",
+  "version": "0.8.0",
   "scripts": {
     "build": "ng build query-builder --configuration production",
     "publish-to-npm": "npm publish --access public"
