@@ -36,6 +36,13 @@
   "module": "dist/query-builder/esm2022/query-builder.mjs",
   "fesm2022": "dist/query-builder/fesm2022/query-builder.mjs",
   "typings": "dist/query-builder/types/query-builder.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/query-builder/types/query-builder.d.ts",
+      "import": "./dist/query-builder/fesm2022/query-builder.mjs",
+      "default": "./dist/query-builder/fesm2022/query-builder.mjs"
+    }
+  },
   "files": [
     "dist/query-builder/**/*"
   ],
